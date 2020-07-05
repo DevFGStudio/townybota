@@ -36,12 +36,11 @@ client.on('message', (message) => {
     return message.reply('pong');
   }
 
-  if(message.content == 'test') {
+    if(message.content == 'test') {
     let img = 'https://cdn.discordapp.com/attachments/541200820625080320/729204541853270097/fc8b7cd02abbd9e4.PNG';
     let embed = new Discord.RichEmbed()
-      .setTitle('밤의서버연합 카페')
-      .setAuthor('네이버 카페', img, 'http://cafe.naver.com/barmco')
-      .addField('밤의서버연합 이름 클릭시 카페로 이동합니다.')
+      .setAuthor('이곳을 클릭해주세요.', img, 'http://cafe.naver.com/barmco')
+      .addField('', '밤의서버연합 이름 클릭시 카페로 이동합니다.', true)
       .addBlankField()
       .addBlankField()
       .setTimestamp()
