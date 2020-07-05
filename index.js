@@ -40,7 +40,7 @@ client.on('message', (message) => {
     let img = 'https://cdn.discordapp.com/attachments/541200820625080320/729204541853270097/fc8b7cd02abbd9e4.PNG';
     let embed = new Discord.RichEmbed()
       .setAuthor('이곳을 클릭해주세요.', img, 'http://cafe.naver.com/barmco')
-      .addField('.', '밤의서버연합 이름 클릭시 카페로 이동합니다.', true)
+      .addField('\n', '밤의서버연합 이름 클릭시 카페로 이동합니다.', true)
       .addBlankField()
       .addBlankField()
       .setTimestamp()
