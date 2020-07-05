@@ -42,8 +42,6 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
       .setAuthor('밤의서버연합', img, 'http://cafe.naver.com/barmco')
       .addField('--------------------------------', '위에 클릭시 카페로 이동합니다.', true)
-      .addBlankField()
-      .addBlankField()
       .setTimestamp()
       .setFooter('담당관리자 : FGStudio#6284', img2)
 
