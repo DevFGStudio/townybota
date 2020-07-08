@@ -57,7 +57,7 @@ client.on('message', (message) => {
       message.channel.send(embed)
 
 
-    } else if(message.content == '!홈페이지') {
+   } else if(message.content == '!홈페이지') {
       let img = 'https://cdn.discordapp.com/attachments/541200820625080320/729204541853270097/fc8b7cd02abbd9e4.PNG';
       let img2 = 'https://cdn.discordapp.com/attachments/729210781593501698/729211758824128532/barmco.png'
       let embed = new Discord.RichEmbed()
