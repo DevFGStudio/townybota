@@ -61,7 +61,7 @@ client.on('message', (message) => {
       let img = 'https://cdn.discordapp.com/attachments/541200820625080320/729204541853270097/fc8b7cd02abbd9e4.PNG';
       let img2 = 'https://cdn.discordapp.com/attachments/729210781593501698/729211758824128532/barmco.png'
       let embed = new Discord.RichEmbed()
-        .setAuthor('밤의서버연합 홈페이지', img, 'barmco.dothome.co.kr')
+        .setAuthor('밤의서버연합 홈페이지', img, 'http://barmco.dothome.co.kr')
         .addField('--------------------------------', '위 클릭시 개발중인 홈페이지로 이동합니다.', true)
         .setTimestamp()
         .setFooter('담당관리자 : FGStudio#6284', img2)
